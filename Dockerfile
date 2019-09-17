@@ -12,7 +12,7 @@ RUN mkdir /test && apt-get update && \
 
 WORKDIR /test
 
-COPY entrypoint.sh /test
-RUN chmod +x /test/entrypoint.sh
+COPY entrypoint.sh /
+RUN chmod +x /entrypoint.sh
 
-ENTRYPOINT /test/entrypoint.sh
+ENTRYPOINT /entrypoint.sh
