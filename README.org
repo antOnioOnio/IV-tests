@@ -1,7 +1,11 @@
 [[https://www.gnu.org/licenses/gpl-3.0][https://img.shields.io/badge/License-GPLv3-blue.svg]]
 
-* Motivation
-There is a way to run the tests as similar as possible to the ones
-which will run when a PR is created in this [[https://github.com/JJ/IV-19-20][repository]].
+* Description
+This repository is used to build a docker image which can then be used
+to run the Perl tests in the [[https://github.com/JJ/IV-19-20][IV-19-20]] repository against any other
+repository and branch.
+
+This can be handy as it allows any student to test their repositories
+changes before opening a Pull Request.
 
 * Example
