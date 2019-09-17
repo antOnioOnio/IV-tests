@@ -1,0 +1,11 @@
+[[https://www.gnu.org/licenses/gpl-3.0][https://img.shields.io/badge/License-GPLv3-blue.svg]]
+
+* About this repository
+This repository has been created to run the CI tests which will be
+ran in the original [[https://github.com/JJ/IV-19-20][repository]].
+
+* Motivation
+There is a way to run the tests as similar as possible to the ones
+which will run when a PR is created.
+
+* Example
