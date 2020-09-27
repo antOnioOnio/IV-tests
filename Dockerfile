@@ -1,7 +1,7 @@
 FROM perl:5.24-slim-threaded
-LABEL version="1.3" maintainer="Iris Garcia <iris.garcia.desebastian@gmail.com>" perl5version="5.28"
+LABEL version="1.3" maintainer="Antonio Garcia <anthoniusstanfield@gmail.com>" perl5version="5.28"
 
-ENV SRC_REPO https://github.com/JJ/IV-19-20.git
+ENV SRC_REPO https://github.com/JJ/IV-20-21.git
 ENV BRANCH master
 
 # Set up dir and download modules
